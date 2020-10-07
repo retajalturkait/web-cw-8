@@ -7,6 +7,15 @@
 //     console.log ، if ملاحظة: سوف تستخدم
 
 // 👇 هنا function عرف الدالة او
+function driving(a){
+    if( a>18 ){
+      console.log (`🚘😍 مبروك سوف تحصل على الليسن`)
+    }else {
+            console.log (`😢 للاسف عمرك لا يسمح`)
+    }
+ }
+    driving(20)
+
 
 
 
@@ -21,14 +30,31 @@
 //     - console.log لطباعة قائمة نكهات الآيس كريم بإستخدام for loop استخدم
 
 // 👇 هنا array عرف المصفوفة او
+var iceCeam = [`vanila`, `banana`, `rasberry`,`chocolate`,`coconut`,`coffe`];
 
-
-
+for (const retaj of iceCeam) {
+    console.log (retaj)
+}
 
 
 // --------------------------------- ✨ بونص ------------------------------------
 // بحيث عند مناداة الدالة تطبع القائمة myIceCream بإسم function عرف دالة او
 // for loop عرف مصفوفة أخرى تحتوي على أفلامك الكرتون المفضلة بالنسبة لك وقم بطباعة الأفلام بإستخدام
+function myIceCream(){
+    console.log( iceCeam )
+}
+
+var cartoon =[`shaun the sheep`,`tom & jerry`,`one piece`,`dora`]
+
+for (const anything of cartoon) {
+    console.log (anything)
+}
+
 
 // --------------------------------- 🔥 بونص ------------------------------------
 // while loop اطبع احد المصفوفات بإستخدام
+let t =0
+while (t< cartoon.length) {
+    console.log(cartoon[t]);
+    t++
+  }
